@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --main-color:#8dc641;
+    --ori-color:#f68921;
+    --whi-color:white;
+}
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+}
+.cl{
+    width: 1200px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+@keyframes  qr-on{
+    0%{ 
+        opacity: 0;
+
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes  growth{
+    0%{ 
+        transform: scale(var(--growth-from));
+
+    }
+    100%{
+        transform: scale(var(--growth-to));
+    }
+}
+.col3{
+    width: 32%;
+    margin: 0 7px 30px 6px
+}
+.col4{
+    width: 24%;
+    margin: 0 6px 20px 5px
+}
